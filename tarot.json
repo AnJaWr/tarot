@@ -1,0 +1,736 @@
+[
+    {
+        "name": "Głupiec",
+        "number": 0,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Nowe początki, spontaniczność, wolny duch",
+        "meaning_rev": "Lekkomyślność, brak kierunku, brak rozwagi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/RWS_Tarot_00_Fool.jpg/137px-RWS_Tarot_00_Fool.jpg"
+   
+    },
+    {
+        "name": "Mag",
+        "number": 1,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Siła woli, kreatywność, umiejętności, koncentracja, działanie",
+        "meaning_rev": "Manipulacja, złe wykorzystanie mocy, brak pewności siebie, opóźnienia",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/RWS_Tarot_01_Magician.jpg/136px-RWS_Tarot_01_Magician.jpg"
+   
+    },
+    {
+        "name": "Kapłanka",
+        "number": 2,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Intuicja, tajemnica, boska wiedza, podświadomość",
+        "meaning_rev": "Tajemnice, brak zrozumienia, powierzchowność",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/RWS_Tarot_02_High_Priestess.jpg/138px-RWS_Tarot_02_High_Priestess.jpg"
+   
+    },
+    {
+        "name": "Cesarzowa",
+        "number": 3,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Płodność, obfitość, piękno, natura, macierzyństwo",
+        "meaning_rev": "Blokada kreatywności, zależność od innych",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/RWS_Tarot_03_Empress.jpg/139px-RWS_Tarot_03_Empress.jpg"
+  
+    },
+    {
+        "name": "Cesarz",
+        "number": 4,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Autorytet, struktura, kontrola, ojcostwo",
+        "meaning_rev": "Tyrania, sztywność, nadmierna kontrola",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/RWS_Tarot_04_Emperor.jpg/140px-RWS_Tarot_04_Emperor.jpg"
+ 
+    },
+    {
+        "name": "Hierofant",
+        "number": 5,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Tradycja, duchowość, konformizm, instytucje religijne",
+        "meaning_rev": "Bunt, osobiste przekonania, wolność od tradycji",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/RWS_Tarot_05_Hierophant.jpg/137px-RWS_Tarot_05_Hierophant.jpg"
+   
+    },
+    {
+        "name": "Kochankowie",
+        "number": 6,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Miłość, harmonia, partnerstwo, wybory",
+        "meaning_rev": "Brak równowagi, niezgodność, złe decyzje",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/RWS_Tarot_06_Lovers.jpg/500px-RWS_Tarot_06_Lovers.jpg"
+
+    },
+    {
+        "name": "Rydwan",
+        "number": 7,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Determinacja, wola zwycięstwa, kontrola, sukces",
+        "meaning_rev": "Brak kierunku, porażka, utrata kontroli",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/RWS_Tarot_07_Chariot.jpg/136px-RWS_Tarot_07_Chariot.jpg"
+   
+    },
+    {
+        "name": "Siła",
+        "number": 8,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Odwaga, siła wewnętrzna, cierpliwość, współczucie",
+        "meaning_rev": "Słabość, niepewność, brak samodyscypliny",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/RWS_Tarot_08_Strength.jpg/133px-RWS_Tarot_08_Strength.jpg"
+ 
+    },
+    {
+        "name": "Pustelnik",
+        "number": 9,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Introspekcja, samotność, poszukiwanie prawdy, duchowe oświecenie",
+        "meaning_rev": "Izolacja, samotność, wycofanie",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/RWS_Tarot_09_Hermit.jpg/137px-RWS_Tarot_09_Hermit.jpg"
+ 
+    },
+    {
+        "name": "Koło Fortuny",
+        "number": 10,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Zmiana, cykle, nieuniknione zdarzenia, przeznaczenie",
+        "meaning_rev": "Pech, opór przed zmianą, niestabilność",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RWS_Tarot_10_Wheel_of_Fortune.jpg/139px-RWS_Tarot_10_Wheel_of_Fortune.jpg"
+   
+    },
+    {
+        "name": "Sprawiedliwość",
+        "number": 11,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Sprawiedliwość, prawda, równowaga, prawo",
+        "meaning_rev": "Niesprawiedliwość, nierówność, brak odpowiedzialności",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/RWS_Tarot_11_Justice.jpg/138px-RWS_Tarot_11_Justice.jpg"
+ 
+    },
+    {
+        "name": "Wisielec",
+        "number": 12,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Poświęcenie, nowe perspektywy, poddanie się, zawieszenie",
+        "meaning_rev": "Oporność, brak postępu, męczeństwo",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/RWS_Tarot_12_Hanged_Man.jpg/136px-RWS_Tarot_12_Hanged_Man.jpg"
+
+    },
+    {
+        "name": "Śmierć",
+        "number": 13,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Transformacja, zakończenie, nowe początki, zmiana",
+        "meaning_rev": "Oporność przed zmianą, niechęć do zakończenia",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/RWS_Tarot_13_Death.jpg/136px-RWS_Tarot_13_Death.jpg"
+ 
+    },
+    {
+        "name": "Umiarkowanie",
+        "number": 14,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Równowaga, cierpliwość, harmonia, umiar",
+        "meaning_rev": "Nadmierność, brak równowagi, impulsywność",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/RWS_Tarot_14_Temperance.jpg/138px-RWS_Tarot_14_Temperance.jpg"
+  
+    },
+    {
+        "name": "Diabeł",
+        "number": 15,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Przywiązanie, uzależnienie, materializm, pokusa",
+        "meaning_rev": "Uwolnienie, niezależność, przezwyciężenie uzależnień",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/RWS_Tarot_15_Devil.jpg/137px-RWS_Tarot_15_Devil.jpg"
+   
+    },
+    {
+        "name": "Wieża",
+        "number": 16,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Nagła zmiana, zniszczenie, przebudzenie",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/RWS_Tarot_16_Tower.jpg/140px-RWS_Tarot_16_Tower.jpg"
+  
+    },
+    {
+        "name": "Gwiazda",
+        "number": 17,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Nadzieja, inspiracja, duchowe przewodnictwo, optymizm",
+        "meaning_rev": "Rozczarowanie, brak wiary, pesymizm",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/RWS_Tarot_17_Star.jpg/139px-RWS_Tarot_17_Star.jpg"
+  
+    },
+    {
+        "name": "Księżyc",
+        "number": 18,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Iluzje, intuicja, podświadomość, lęki",
+        "meaning_rev": "Zamieszanie, lęki, brak jasności",
+"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/RWS_Tarot_18_Moon.jpg/136px-RWS_Tarot_18_Moon.jpg"
+
+    },
+    {
+        "name": "Słońce",
+        "number": 19,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Szczęście, radość, sukces, optymizm",
+        "meaning_rev": "Smutek, przytłoczenie, pesymizm",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RWS_Tarot_19_Sun.jpg/139px-RWS_Tarot_19_Sun.jpg"
+
+    },
+    {
+        "name": "Sąd Ostateczny",
+        "number": 20,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Odrodzenie, oświecenie, decyzja, przebaczenie",
+        "meaning_rev": "Zwątpienie, unikanie odpowiedzialności, brak samorefleksji",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RWS_Tarot_20_Judgement.jpg/139px-RWS_Tarot_20_Judgement.jpg"
+
+    },
+    {
+        "name": "Świat",
+        "number": 21,
+        "arcana": "Wielkie Arkana",
+        "suit": null,
+        "meaning_up": "Spełnienie, zakończenie, podróż, sukces",
+        "meaning_rev": "Niedokończone sprawy, opóźnienia, brak zamknięcia",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/RWS_Tarot_21_World.jpg/137px-RWS_Tarot_21_World.jpg"
+    
+    },
+    {
+        "name": "As Buław",
+        "number": 22,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Nowe możliwości, inspiracja, energia, kreatywność",
+        "meaning_rev": "Opóźnienia, brak motywacji, zablokowana energia",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Wands01.jpg/137px-Wands01.jpg"
+    },
+    {
+        "name": "Dwójka Buław",
+        "number": 23,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Planowanie, decyzje, przyszłe możliwości",
+        "meaning_rev": "Strach przed zmianą, brak postępu",
+               "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Wands02.jpg/138px-Wands02.jpg"
+    },
+    {
+        "name": "Trójka Buław",
+        "number": 24,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Ekspansja, perspektywy, podróż, rozwój",
+        "meaning_rev": "Opóźnienia, brak wizji, stagnacja",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wands03.jpg/136px-Wands03.jpg"
+
+    },
+    {
+        "name": "Czwórka Buław",
+        "number": 25,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Świętowanie, harmonia, stabilność, dom",
+        "meaning_rev": "Konflikt domowy, brak stabilności",
+           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Wands04.jpg/136px-Wands04.jpg"
+    },
+    {
+        "name": "Piątka Buław",
+        "number": 26,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Rywalizacja, konflikty, napięcie",
+        "meaning_rev": "Rozwiązanie konfliktu, zgoda, unikanie sporów",
+           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Wands05.jpg/137px-Wands05.jpg"
+    },
+    {
+        "name": "Szóstka Buław",
+        "number": 27,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Zwycięstwo, uznanie, sukces, pewność siebie",
+        "meaning_rev": "Egoizm, zwątpienie, brak uznania",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Wands06.jpg/138px-Wands06.jpg"
+
+    },
+    {
+        "name": "Siódemka Buław",
+        "number": 28,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Obrona, wytrwałość, asertywność",
+        "meaning_rev": "Poddanie się, wyczerpanie, brak obrony",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Wands07.jpg/136px-Wands07.jpg"
+    },
+    {
+        "name": "Ósemka Buław",
+        "number": 29,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Szybki rozwój, zmiana, podróże",
+        "meaning_rev": "Opóźnienia, przeszkody, stagnacja",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Wands08.jpg/136px-Wands08.jpg"
+    },
+    {
+        "name": "Dziewiątka Buław",
+        "number": 30,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Wytrwałość, odporność, gotowość na wyzwania",
+        "meaning_rev": "Zmęczenie, paranoja, brak wytrwałości",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tarot_Nine_of_Wands.jpg/138px-Tarot_Nine_of_Wands.jpg"
+
+    },
+    {
+        "name": "Dziesiątka Buław",
+        "number": 31,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Obciążenie, obowiązki, ciężka praca",
+        "meaning_rev": "Uwolnienie od ciężaru, nadmierne zobowiązania",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wands10.jpg/139px-Wands10.jpg"
+    },
+    {
+        "name": "Paź Buław",
+        "number": 32,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Ekscytacja, nowe początki, odkrycia",
+        "meaning_rev": "Brak kierunku, niestabilność, impulsywność",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Wands11.jpg/136px-Wands11.jpg"
+    },
+    {
+        "name": "Rycerz Buław",
+        "number": 33,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Akcja, pewność siebie, energia",
+        "meaning_rev": "Nieprzemyślane decyzje, lekkomyślność",
+           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Wands12.jpg/136px-Wands12.jpg"
+    },
+    {
+        "name": "Królowa Buław",
+        "number": 34,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Charyzma, odwaga, optymizm",
+        "meaning_rev": "Zazdrość, manipulacja, brak pewności siebie",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Wands13.jpg/137px-Wands13.jpg"
+    },
+    {
+        "name": "Król Buław",
+        "number": 35,
+        "arcana": "Małe Arkana",
+        "suit": "Buławy",
+        "meaning_up": "Przywództwo, wizja, determinacja",
+        "meaning_rev": "Aroganckość, impulsywność, agresja",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Wands14.jpg/135px-Wands14.jpg"
+    },
+    {
+        "name": "As Mieczy",
+        "number": 36,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Jasność, prawda, nowe idee",
+        "meaning_rev": "Zamieszanie, brak jasności, fałsz",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Swords01.jpg/137px-Swords01.jpg"
+    },
+    {
+        "name": "Dwójka Mieczy",
+        "number": 37,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Trudne decyzje, niezdecydowanie",
+        "meaning_rev": "Unikanie decyzji, wahanie",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Swords02.jpg/138px-Swords02.jpg"
+    },
+    {
+        "name": "Trójka Mieczy",
+        "number": 38,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Złamanie serca, ból, smutek",
+        "meaning_rev": "Uzdrowienie, przebaczenie, ulga",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Swords03.jpg/135px-Swords03.jpg"
+    },
+    {
+        "name": "Czwórka Mieczy",
+        "number": 39,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Odpoczynek, regeneracja, refleksja",
+        "meaning_rev": "Niepokój, nadmierne myślenie, brak odpoczynku",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Swords04.jpg/135px-Swords04.jpg"
+    },
+    {
+        "name": "Piątka Mieczy",
+        "number": 40,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Konflikt, manipulacja, porażka",
+        "meaning_rev": "Pojednanie, przebaczenie, nauka na błędach",
+             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Swords05.jpg/136px-Swords05.jpg"
+    },
+    {
+        "name": "Szóstka Mieczy",
+        "number": 41,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Przejście, zmiana, podróż",
+        "meaning_rev": "Trudności z odejściem, utknięcie w przeszłości",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Swords06.jpg/139px-Swords06.jpg"
+    },
+    {
+        "name": "Siódemka Mieczy",
+        "number": 42,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Podstęp, strategia, spryt",
+        "meaning_rev": "Wina, demaskacja, uczciwość",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Swords07.jpg/138px-Swords07.jpg"
+   
+    },
+    {
+        "name": "Ósemka Mieczy",
+        "number": 43,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Ograniczenia, strach, brak wyjścia",
+        "meaning_rev": "Uwolnienie, nowa perspektywa, pokonanie lęków",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Swords08.jpg/139px-Swords08.jpg"
+ 
+                 },
+    {
+        "name": "Dziewiątka Mieczy",
+        "number": 44,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Lęk, bezsenność, koszmary",
+        "meaning_rev": "Ulga, koniec zmartwień, uzdrowienie",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Swords09.jpg/138px-Swords09.jpg"
+            },
+    {
+        "name": "Dziesiątka Mieczy",
+        "number": 45,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Zakończenie, zdrada, trudny koniec",
+        "meaning_rev": "Nowy początek, regeneracja, wyleczenie z bólu",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Swords10.jpg/139px-Swords10.jpg"
+    },
+    {
+        "name": "Paź Mieczy",
+        "number": 46,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Ciekawość, inteligencja, czujność",
+        "meaning_rev": "Plotki, inwigilacja, niepewność",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Swords11.jpg/137px-Swords11.jpg"
+    },
+    {
+        "name": "Rycerz Mieczy",
+        "number": 47,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Ambicja, szybkość, działanie",
+        "meaning_rev": "Nieprzemyślane decyzje, impulsywność",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Swords12.jpg/137px-Swords12.jpg"
+    },
+    {
+        "name": "Królowa Mieczy",
+        "number":48,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Inteligencja, niezależność, logika",
+        "meaning_rev": "Zimno emocjonalne, cynizm, surowość",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Swords13.jpg/134px-Swords13.jpg"
+    },
+    {
+        "name": "Król Mieczy",
+        "number": 49,
+        "arcana": "Małe Arkana",
+        "suit": "Miecze",
+        "meaning_up": "Autorytet, prawda, dyscyplina",
+        "meaning_rev": "Despotyzm, nadużycie władzy, bezwzględność",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Swords14.jpg/137px-Swords14.jpg"
+    },
+    {
+        "name": "As Denarów",
+        "number": 50,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Obfitość, nowe możliwości finansowe, sukces",
+        "meaning_rev": "Stracona okazja, niestabilność finansowa",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Pents01.jpg/137px-Pents01.jpg"
+    },
+    {
+        "name": "Dwójka Denarów",
+        "number": 51,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Balans, zarządzanie, elastyczność",
+        "meaning_rev": "Chaos, brak organizacji, przeciążenie",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Pents02.jpg/138px-Pents02.jpg"
+    },
+    {
+        "name": "Trójka Denarów",
+        "number": 52,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Współpraca, rozwój, praca zespołowa",
+        "meaning_rev": "Brak pracy zespołowej, konflikty, słaba jakość pracy",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Pents03.jpg/137px-Pents03.jpg"
+
+    },
+    {
+        "name": "Czwórka Denarów",
+        "number": 53,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Stabilność finansowa, oszczędność",
+        "meaning_rev": "Chciwość, strach przed utratą, blokady",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Pents04.jpg/136px-Pents04.jpg"
+    },
+    {
+        "name": "Piątka Denarów",
+        "number": 54,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Trudności finansowe, strata, kryzys",
+        "meaning_rev": "Nadzieja, poprawa, wsparcie",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pents05.jpg/137px-Pents05.jpg"
+    },
+    {
+        "name": "Szóstka Denarów",
+        "number": 55,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Hojność, wsparcie, równowaga finansowa",
+        "meaning_rev": "Zależność, nierówność, manipulacja finansowa",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pents06.jpg/138px-Pents06.jpg"
+    },
+    {
+        "name": "Siódemka Denarów",
+        "number": 56,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Cierpliwość, inwestycje, długoterminowe plany",
+        "meaning_rev": "Frustracja, opóźnienia, brak rezultatów",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pents07.jpg/136px-Pents07.jpg"
+    },
+    {
+        "name": "Ósemka Denarów",
+        "number": 57,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Praca, rzemiosło, doskonalenie umiejętności",
+        "meaning_rev": "Rutyna, brak motywacji, niedbałość",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Pents08.jpg/137px-Pents08.jpg"
+    },
+    {
+        "name": "Dziewiątka Denarów",
+        "number": 58,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Samowystarczalność, luksus, niezależność",
+        "meaning_rev": "Nadmierne wydatki, samotność, zależność",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Pents09.jpg/137px-Pents09.jpg"
+    },
+    {
+        "name": "Dziesiątka Denarów",
+        "number": 59,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Bogactwo, sukces rodzinny, stabilność",
+        "meaning_rev": "Problemy rodzinne, niestabilność finansowa",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Pents10.jpg/139px-Pents10.jpg"
+    },
+    {
+        "name": "Paź Kielichów",
+        "number": 60,
+        "arcana": "Małe Arkana",
+        "suit": "Kielichy",
+        "meaning_up": "Młody, uczciwy mężczyzna, który będzie połączony z pytającym; młodzieniec studiujący; wiadomości, komunikaty; zastosowanie, refleksja, medytacja; również te rzeczy skierowane na biznes.",
+        "meaning_rev": "Smak, skłonność, przywiązanie, uwodzenie, oszustwo, sztuczki.",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Cups11.jpg/134px-Cups11.jpg"
+    },
+    {
+        "name": "Rycerz Kielichów",
+        "number": 61,
+        "arcana": "Małe Arkana",
+        "suit": "Kielichy",
+        "meaning_up": "Przybycie, podejście – czasami posłańca; propozycje, zachowanie, zaproszenie, pobudzenie.",
+        "meaning_rev": "Oszustwa, sztuczki, subtelności, oszustwa, podstęp.",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Cups12.jpg/139px-Cups12.jpg"
+    },
+    {
+        "name": "Królowa Kielichów",
+        "number": 62,
+        "arcana": "Małe Arkana",
+        "suit": "Kielichy",
+        "meaning_up": "Dobra, uczciwa kobieta; oddana, kochająca kobieta, która będzie służyć pytającemu; kochająca inteligencja, a tym samym dar wizji; sukces, szczęście, przyjemność; także mądrość, cnota; doskonała żona i dobra matka.",
+        "meaning_rev": "Zróżnicowane znaczenia; dobra kobieta; w przeciwnym razie, wyróżniająca się kobieta, której nie można ufać; kobieta przewrotna, zła, deprawacja."
+    
+   ,  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Cups13.jpg/139px-Cups13.jpg" },
+    {
+        "name": "Król Kielichów",
+        "number": 63,
+        "arcana": "Małe Arkana",
+        "suit": "Kielichy",
+        "meaning_up": "Uczciwy mężczyzna, człowiek interesów, prawa lub duchowieństwa; odpowiedzialny, skłonny do pomocy pytającemu; także sprawiedliwość, sztuka i nauka, w tym naukowcy, prawnicy i artyści; kreatywna inteligencja.",
+        "meaning_rev": "Nieszczerzy, podwójni mężczyźni; oszustwa, wyzysk, niesprawiedliwość, skandal, rabunek, znaczne straty.",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Cups14.jpg/136px-Cups14.jpg"
+    },
+    {
+        "name": "As Kielichów",
+        "number": 64,
+        "arcana": "Małe Arkana",
+        "suit": "Kielichy",
+        "meaning_up": "Dom prawdziwego serca, radość, zadowolenie, mieszkanie, pożywienie, obfitość, płodność; Święty Stół, szczęście.",
+        "meaning_rev": "Dom fałszywego serca, zmiana, niestabilność, rewolucja.",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cups01.jpg/134px-Cups01.jpg"
+    },
+    {
+        "name": "Dwójka Kielichów",
+        "number": 65,
+        "arcana": "Małe Arkana",
+        "suit": "Kielichy",
+        "meaning_up": "Miłość, pasja, przyjaźń, pokrewieństwo, zjednoczenie, zgoda, sympatia, wzajemne relacje płci oraz - jako sugestia oddzielna od wszystkich wróżb - pragnienie, które nie jest w Naturze, ale przez którą Natura jest uświęcona.",
+        "meaning_rev": "Wstrzymanie, fałszywej miłości, izolacji, rozdzielenie, wycofanie emocjonalne, zauroczenie, drobny konflikt, niezgoda, nieporozumienie."
+   ,       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Cups02.jpg/135px-Cups02.jpg" },
+    {
+        "name": "Trójka Kielichów",
+        "number": 66,
+        "arcana": "Małe Arkana",
+        "suit": "Kielichy",
+        "meaning_up": "Zakończenie sprawy w obfitości, doskonałości i radości; szczęśliwe zakończenie, zwycięstwo, spełnienie, pocieszenie, leczenie.",
+        "meaning_rev": "Pośpiech, osiągnięcie, koniec. Symbolizuje również stronę nadmiaru w przyjemności fizycznej i zmysłowych przyjemności."
+    , "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cups03.jpg/136px-Cups03.jpg"},
+    {
+        "name": "Czwórka Kielichów",
+        "number": 67,
+        "arcana": "Małe Arkana",
+        "suit": "Kielichy",
+        "meaning_up": "Znużenie, obrzydzenie, awersja, wyimaginowane troski, jakby wino tego świata spowodowało tylko nasycenie; inny kielich, jakby dar wróżki, jest teraz oferowany marnotrawcy, ale nie widzi on w tym pocieszenia. Jest to także karta zblendowanej przyjemności.",
+        "meaning_rev": "Nowość, przepowiednia, nowe pouczenia, nowe relacje.",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Cups04.jpg/137px-Cups04.jpg"
+    },
+    {
+        "name": "Piątka Kielichów",
+        "number": 68,
+        "arcana": "Małe Arkana",
+        "suit": "Kielichy",
+        "meaning_up": "Utrata, ale coś pozostaje; trzy kielichy zostały zabrane, ale dwa pozostały. To karta dziedzictwa, przekazywania, która jednak nie spełnia oczekiwań; z niektórymi interpretatorami jest to karta małżeństwa, ale nie bez goryczy lub frustracji.",
+        "meaning_rev": "Wiadomości, sojusze, pokrewieństwo, powrót, fałszywe projekty.",
+         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cups05.jpg/134px-Cups05.jpg"
+    },
+    {
+        "name": "Szóstka Kielichów",
+        "number": 69,
+        "arcana": "Małe Arkana",
+        "suit": "Kielichy",
+        "meaning_up": "Karta przeszłości i wspomnień, patrzenie wstecz, jak np. na dzieciństwo; szczęście, radość, ale pochodzące raczej z przeszłości; rzeczy, które zniknęły. Inne odczytanie wskazuje na nowe relacje, nową wiedzę, nowe otoczenie.",
+        "meaning_rev": "Przyszłość, odnowienie, to, co się stanie.",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Cups06.jpg/135px-Cups06.jpg"
+
+    },
+    {
+        "name": "Siódemnka Kielichów",
+        "number": 70,
+        "arcana": "Małe Arkana",
+        "suit": "Kielichy",
+        "meaning_up": "Wróżby, obrazy refleksji, uczucia, wyobraźnia, rzeczy widziane w szklance kontemplacji; pewne osiągnięcia w tych aspektach, ale nic trwałego ani istotnego.",
+        "meaning_rev": "Pragnienie, wola, determinacja, projekt.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Cups07.jpg/137px-Cups07.jpg"
+    },
+    {
+        "name": "Ósemka Kielichów",
+        "number": 71,
+        "arcana": "Małe Arkana",
+        "suit": "Kielichy",
+        "meaning_up": "Karta mówi sama za siebie na powierzchni, ale inne odczytania są zupełnie przeciwstawne – dają radość, łagodność, nieśmiałość, honor, skromność. Zwykle ta karta pokazuje spadek sprawy lub sytuację, która została uznana za ważną, ale w rzeczywistości jest niewielką sprawą.",
+        "meaning_rev": "Wielka radość, szczęście, uczta.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cups08.jpg/137px-Cups08.jpg"
+    },
+
+    {
+            "name": "Dziewiątka Kielichów",
+            "number":72,
+            "arcana": "Małe Arkana",
+            "suit": "Kielichy",
+            "meaning_up": "Zgoda, zadowolenie, fizyczne dobrobyt; także zwycięstwo, sukces, korzyść; satysfakcja dla pytającego lub osoby, dla której odbywa się wróżba.",
+            "meaning_rev": "Prawda, lojalność, wolność; ale odczytania są zróżnicowane, w tym błędy, niedoskonałości.",
+                   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Cups09.jpg/136px-Cups09.jpg"
+     },
+     {
+            "name": "Dziesiątka Kielichów",
+            "number": 73,
+            "arcana": "Małe Arkana",
+            "suit": "Kielichy",
+            "meaning_up": "Zadowolenie, spokój całego serca; doskonałość tego stanu; także doskonałość ludzkiej miłości i przyjaźni; jeśli z kilkoma kartami obrazkowymi, osoba, która bierze odpowiedzialność za interesy",
+            "meaning_rev": "Wzburzone serce, oburzenie, przemoc",
+                   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Cups10.jpg/136px-Cups10.jpg"
+     },
+     {
+        "name": "Paź Denarów",
+        "number": 74,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Zastosowanie, nauka, stypendium, refleksja, inne odczytanie mówi o wiadomościach, przekazicielu tych wiadomości; również rządy, zarządzanie.",
+        "meaning_rev": "Rozrzutność, rozpraszanie, hojność, luksus; niekorzystne wiadomości.",
+        "desc": "Młoda postać, wpatrująca się intensywnie w pentakl, który unosi się nad jej uniesionymi rękami. Porusza się powoli, nie zauważając tego, co go otacza.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Pents11.jpg/137px-Pents11.jpg"
+    },
+    {
+        "name": "Rycerz Denarów",
+        "number": 75,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Użyteczność, przydatność, odpowiedzialność, prawość - wszystko na normalnym i zewnętrznym poziomie.",
+        "meaning_rev": "Inercja, bezczynność, stagnacja; również spokój, zniechęcenie, lekceważenie.",
+        "desc": "Jest na powolnym, wytrwałym, ciężkim koniu, do którego jego własny wygląd pasuje. Prezentuje swój symbol, ale nie patrzy w niego.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Pents12.jpg/136px-Pents12.jpg"
+    },
+    {
+        "name": "Królowa Denarów",
+        "number": 76,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Obfitość, hojność, wspaniałość, bezpieczeństwo, wolność.",
+        "meaning_rev": "Zło, podejrzenia, napięcie, strach, brak zaufania.",
+        "desc": "Jej twarz sugeruje ciemną kobietę, której cechy można podsumować jako wielkość ducha; ma również poważny wyraz inteligencji; kontempluje swój symbol i może dostrzegać w nim światy.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Pents13.jpg/136px-Pents13.jpg"
+    },
+    {
+        "name": "Król Denarów",
+        "number": 77,
+        "arcana": "Małe Arkana",
+        "suit": "Denary",
+        "meaning_up": "Męstwo, realizująca inteligencja, biznes i normalna zdolność intelektualna, czasem matematyczne talenty i osiągnięcia w tym zakresie; sukces w tych dziedzinach.",
+        "meaning_rev": "Wice, słabość, brzydota, przewrotność, korupcja, niebezpieczeństwo.",
+        "desc": "Figura nie wymaga specjalnego opisu, twarz jest raczej ciemna, sugerująca także odwagę, ale z tendencją do letargu. Głowa byka powinna być zauważona jako symbol powtarzający się na tronie. Znak tej talii przedstawiony jest w postaci wygrawerowanego pentagramu, symbolizującego zgodność czterech elementów w ludzkiej naturze i sposobu ich zarządzania.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Pents14.jpg/138px-Pents14.jpg"
+    }
+
+    ]

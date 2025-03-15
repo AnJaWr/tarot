@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+    <!-- <div class="container wrapper" id="oneCard">
+        <h2>Karta - wskazówka</h2>
+        <div class="card"></div>
+        <div class="description full-width"></div>
+
+</div> -->
+     <div class="container wrapper" id="oneCard">
+        <h2>Karta - wskazówka</h2>
+        <div class="card"></div>
+        <div class="description full-width">
+            <h3 class="name"></h3>
+            <p class="text"></p>
+        </div>
+        <button class="button" onclick="drawCard()">Losuj kartę</button> 
+    </div>
+    
+
+    
+    <!-- <div class="container wrapper" id="treeCard">   <h2>
+                Wróżba z trzech kart
+            </h2>
+        <div class="card card-past"></div>
+        <div class="card card-now"></div>
+        <div class="card card-future"></div>
+        <div class="description-wrapper">
+
+         
+            <div class="description-container">
+                <h3>Przesłość</h3>
+                <div class="description" id="past"></div>
+            </div>
+            <div class="description-container">
+                <h3>Teraźniejszość</h3>
+                <div class="description" id="past"></div>
+            </div>
+
+            <div class="description-container">
+                <h3>Przyszłość</h3>
+                <div class="description" id="past"></div>
+            </div>
+
+            <button class="button" onclick="TellMe()">Losuj kartę</button> 
+
+
+        </div>
+    </div> -->
+
+    <div class="container wrapper" id="treeCard">
+        <h2>Wróżba z trzech kart</h2>
+        <div class="card card-past" id="cardPast"></div>
+        <div class="card card-now" id="cardNow"></div>
+        <div class="card card-future" id="cardFuture"></div>
+        <div class="description-wrapper">
+            <div class="description-container">
+                <h3>Przesłość</h3>
+                <div class="description" id="descriptionPast"></div>
+            </div>
+            <div class="description-container">
+                <h3>Teraźniejszość</h3>
+                <div class="description" id="descriptionNow"></div>
+            </div>
+            <div class="description-container">
+                <h3>Przyszłość</h3>
+                <div class="description" id="descriptionFuture"></div>
+            </div>
+            <button class="button" onclick="TellMe()">Losuj kartę</button>
+        </div>
+    </div>
+
+  
+
+    <div class="container wrapper" id="TorF">
+        <h2>Tak czy nie?</h2>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="description-wrapper">
+            <div id="answer"></div>
+        </div>
+
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
