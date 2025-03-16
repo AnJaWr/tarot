@@ -18,6 +18,8 @@ function loadCards() {
         });
 }
 
+
+
 // Funkcja losująca kartę
 function drawCard() {
     if (cards.length === 0) {
@@ -51,46 +53,96 @@ function drawCard() {
         cardName.textContent = 'Karta odwrócona - ' +card.name; 
     }
 }
-
-
 function TellMe() {
-    // Losowanie 3 kart
-    const cardPast = getRandomCard();
-    const cardNow = getRandomCard();
-    const cardFuture = getRandomCard();
+    // Tworzymy kopię tablicy kart, aby nie modyfikować oryginalnych danych
+    let availableCards = [...cards];
+    const cardPast = getRandomCard(availableCards);
+    const cardNow = getRandomCard(availableCards);
+    const cardFuture = getRandomCard(availableCards);
 
     // Przypisanie obrazków do kart
-    document.getElementById('cardPast').style.backgroundImage = `url(${cardPast.image})`;
-    document.getElementById('cardNow').style.backgroundImage = `url(${cardNow.image})`;
-    document.getElementById('cardFuture').style.backgroundImage = `url(${cardFuture.image})`;
+    setCardImage('cardPast', cardPast);
+    setCardImage('cardNow', cardNow);
+    setCardImage('cardFuture', cardFuture);
 
     // Losowanie, czy karta będzie odwrócona, czy nie
-    displayCardMeaning('descriptionPast', cardPast);
-    displayCardMeaning('descriptionNow', cardNow);
-    displayCardMeaning('descriptionFuture', cardFuture);
+    displayCardMeaning('descriptionPast', cardPast, 'cardPast');
+    displayCardMeaning('descriptionNow', cardNow, 'cardNow');
+    displayCardMeaning('descriptionFuture', cardFuture, 'cardFuture');
 }
 
-// Funkcja losująca kartę
-function getRandomCard() {
-    const randomIndex = Math.floor(Math.random() * cards.length);
-    return cards[randomIndex];
+// Funkcja losująca kartę bez powtórzeń
+function getRandomCard(availableCards) {
+    const randomIndex = Math.floor(Math.random() * availableCards.length);
+    const card = availableCards[randomIndex];
+    availableCards.splice(randomIndex, 1);
+    return card;
 }
 
-// Funkcja, która przypisuje znaczenie do karty
-function displayCardMeaning(elementId, card) {
-    const randomValue = Math.random() < 0.5 ? 1 : 2; // Losowanie a lub b
+// Funkcja przypisująca obrazek do karty
+function setCardImage(elementId, card) {
+    const cardElement = document.getElementById(elementId);
+    cardElement.style.backgroundImage = `url(${card.image})`;
+    cardElement.classList.remove('reversed'); // Usuwamy odwrócenie na start
+}
+
+// Funkcja, która przypisuje znaczenie do karty i ewentualnie ją odwraca
+function displayCardMeaning(elementId, card, cardClass) {
+    const isReversed = Math.random() < 0.5; // Losowanie odwróconej karty
     const descriptionElement = document.getElementById(elementId);
+    const cardElement = document.getElementById(cardClass);
 
-    if (randomValue === 1) {
-        descriptionElement.textContent = card.meaning_up;
-    } else {
+    if (isReversed) {
         descriptionElement.textContent = card.meaning_rev;
-        // Obrócenie karty
-        document.getElementById(elementId.replace('description', 'card')).classList.add('reversed');
+        cardElement.classList.add('reversed'); // Obracamy kartę
+    } else {
+        descriptionElement.textContent = card.meaning_up;
+        cardElement.classList.remove('reversed'); // Jeśli nie jest odwrócona, upewniamy się, że nie ma klasy
     }
 }
 
-// Załaduj karty po załadowaniu strony
+
+function ToF() {
+    const cards = [
+        document.getElementById('card_one'),
+        document.getElementById('card_two'),
+        document.getElementById('card_three')
+    ];
+
+    let trueCount = 0;
+
+    cards.forEach(card => {
+        const isTrue = Math.random() < 0.5; // Losowanie true (50%) lub false (50%)
+
+        if (isTrue) {
+            card.classList.remove('reversed'); // Usuwamy odwrócenie jeśli było
+            trueCount++;
+        } else {
+            card.classList.add('reversed'); // Dodajemy klasę dla odwróconych kart
+        }
+    });
+
+    // Ustalamy wynik na podstawie liczby kart z true
+    const answerElement = document.getElementById('answer');
+    let resultText = '';
+
+    switch (trueCount) {
+        case 3:
+            resultText = 'Tak';
+            break;
+        case 2:
+            resultText = 'Raczej tak';
+            break;
+        case 1:
+            resultText = 'Raczej nie';
+            break;
+        case 0:
+            resultText = 'Nie';
+            break;
+    }
+
+    answerElement.textContent = resultText;
+}
 window.onload = function() {
     loadCards();
 };

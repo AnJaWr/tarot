@@ -85,3 +85,37 @@ body
             width: 50%;
          
         }
+        .reversed {
+            transform: rotate(180deg);
+        }
+        #TorF{
+            margin-bottom: 100px;
+        }
+        .margin-top{
+            margin-top: 40px;
+        }
+        .header,
+        .footer{
+            height: 15vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding:40px 0px 40px 0px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            padding: 8px;
+            text-decoration: none;
+            margin-left: 20px;
+          }
